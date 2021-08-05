@@ -12,6 +12,11 @@
   padding: 0;
 }
 
+body {
+  min-height: 100vh;
+  padding: 2.5rem;
+}
+
 /* Colors */
 :root {
   --black: #000000;
@@ -86,6 +91,7 @@ p {
 .header-link, .source-link {
   color: var(--dark-grey);
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .header-link {
