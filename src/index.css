@@ -1,0 +1,101 @@
+/*-------------------------------------------------------------------------*/
+/* GlOBAL STYLES ----------------------------------------------------------*/
+/*-------------------------------------------------------------------------*/
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Global reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Colors */
+:root {
+  --black: #000000;
+  --dark-grey: #7D7D7D;
+  --medium-grey: #E5E5E5;
+  --light-grey: #F3F3F3;
+  --white: #FFFFFF;
+}
+
+
+/* Fonts */
+html {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+}
+
+/* Main headings */
+h1, h2, h3 {
+  color: var(--black);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+/* Sub headings */
+h4, h5 {
+  color: var(--black);
+  font-weight: normal;
+}
+
+h4 {
+  font-size: .9375rem;
+  line-height: 1.1875rem;
+}
+
+h5 {
+  font-size: .8125rem;
+  line-height: 1rem;
+  
+}
+
+/* Body */
+p {
+  color: var(--dark-grey);
+  font-weight: bold;
+  font-size: .875rem;
+  line-height: 1.75rem;
+}
+
+/* Year display */
+.display {
+  color: var(--light-grey);
+  font-weight: bold;
+  font-size: 12.5rem;
+  line-height: 9.375rem;
+}
+
+/* Links */
+.header-link, .source-link {
+  color: var(--dark-grey);
+  font-weight: bold;
+}
+
+.header-link {
+  font-size: .75rem;
+  letter-spacing: .15625rem;
+  text-decoration: none;
+}
+
+.source-link {
+  font-size: .5625rem;
+  letter-spacing: .125rem;
+  text-decoration: underline;
+}
