@@ -6,3 +6,13 @@ header {
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--medium-grey);
 }
+
+@media only screen and (max-width: 700px) {
+  header {
+    padding-bottom: 1.5rem;
+  }
+
+  header img {
+    width: 7.125rem;
+  }
+}

@@ -11,6 +11,26 @@
   width: 100%;
 }
 
+
+
+.gallery-item:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--white);
+  opacity: 0;
+}
+
+.gallery-item:hover::after {
+  cursor: pointer;
+  opacity: .4;
+  transition: .3s;
+}
+
+
 .gallery-item img {
   display: block;
   width: 100%;
@@ -53,5 +73,6 @@
 @media only screen and (max-width: 700px) {
   .gallery-container {
     column-count: 1;
+    margin-top: 1.5rem;
   }
 }
