@@ -1,15 +1,15 @@
+import './Gallery.css';
+
 function Gallery({data}) {
-  console.log(data[0].artist.image);
   return (
-    <div>
+    <div className="gallery-container">
       {
         data.map(painting => {
           return (
-            <p>{painting.name}</p>
+            <img src={painting.images.thumbnail} alt="gallery-pic" />
           )
         })
       }
-      <img src={data[14].artist.image} alt="img" />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.gallery-container {
+  column-count: 4;
+  column-gap: 40px;
+  max-width: 1400px;
+  margin: 40px auto 0;
+}
+
+.gallery-container img {
+  display: inline-block;
+  margin: 0 0 40px;
+  width: 100%;
+}
+
+
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 768px) {
+  .gallery-container {
+    column-count: 2;
+  }
+}
+
+
+/* Masonry on small screens */
+@media only screen and (max-width: 500px) {
+  .gallery-container {
+    column-count: 1;
+  }
+}
