@@ -6,7 +6,15 @@ function Gallery({data}) {
       {
         data.map(painting => {
           return (
-            <img src={painting.images.thumbnail} alt="gallery-pic" />
+            <div className="gallery-item">
+              <img src={painting.images.thumbnail} alt="gallery-pic" />
+              <div className="item-info">
+                <div>
+                  <h2>{painting.name}</h2>
+                  <h5>{painting.artist.name}</h5>
+                </div>
+              </div>
+            </div>
           )
         })
       }

@@ -35,7 +35,6 @@ html {
 
 /* Main headings */
 h1, h2, h3 {
-  color: var(--black);
   font-weight: bold;
 }
 
@@ -47,6 +46,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   line-height: 1.875rem;
+  color: var(--white);
 }
 
 h3 {
@@ -68,7 +68,8 @@ h4 {
 h5 {
   font-size: .8125rem;
   line-height: 1rem;
-  
+  color: var(--white);
+  opacity: .75;
 }
 
 /* Body */
