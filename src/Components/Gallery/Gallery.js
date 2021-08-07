@@ -9,10 +9,7 @@ function Gallery({data}) {
         data.map(painting => {
           return (
             <Link to={`/${painting.name}`} key={painting.name} >
-              <div 
-                className="gallery-item" 
-                onClick={() => console.log(painting.name)}
-              >
+              <div className="gallery-item">
                 <img src={painting.images.thumbnail} alt="gallery-pic" />
                 <div className="item-info">
                   <div>
@@ -22,7 +19,6 @@ function Gallery({data}) {
                 </div>
               </div>
             </Link>
-   
           )
         })
       }

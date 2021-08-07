@@ -9,15 +9,6 @@ import {
   Route,
 } from "react-router-dom";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Header />
-//       <Gallery data={data} />
-//     </div>
-//   );
-// }
-
 function App() {
   return (
     <Router>
