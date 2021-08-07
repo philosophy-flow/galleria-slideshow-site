@@ -24,11 +24,15 @@
   opacity: 0;
 }
 
-.gallery-item:hover::after {
-  cursor: pointer;
-  opacity: .4;
-  transition: .3s;
+
+@media (hover: hover) and (pointer: fine) {
+  .gallery-item:hover::after {
+    cursor: pointer;
+    opacity: .4;
+    transition: .3s;
+  }
 }
+
 
 
 .gallery-item img {
@@ -55,7 +59,6 @@
 }
 
 
-/* Masonry on medium-sized screens */
 @media only screen and (max-width: 1300px) {
   .gallery-container {
     column-count: 3;
@@ -69,10 +72,13 @@
 }
 
 
-/* Masonry on small screens */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 650px) {
   .gallery-container {
     column-count: 1;
     margin-top: 1.5rem;
+  }
+
+  .gallery-item {
+    margin: 0 auto 1.5rem;
   }
 }
