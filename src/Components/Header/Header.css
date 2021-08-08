@@ -5,6 +5,7 @@ header {
   
   padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--medium-grey);
+  transition: .3s;
 }
 
 @media (hover: hover) and (pointer: fine) {
