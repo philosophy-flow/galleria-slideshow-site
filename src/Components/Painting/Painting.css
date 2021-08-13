@@ -1,0 +1,22 @@
+
+.main-container {
+  border: 1px solid green;
+  height: 624px;
+}
+
+.title-container {
+  height: 560px;
+  border: 1px solid red;
+
+  display: flex;
+}
+
+.title-text-container {
+  border: 1px solid purple;
+}
+
+.title-container img {
+  height: 100%;
+  width: auto;
+}
+
